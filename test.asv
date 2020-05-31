@@ -1,0 +1,24 @@
+clc
+clear all
+tic
+
+cd C:\Users\liyemei\Desktop/metrics/
+A=imread('lytro-01-A.jpg');
+F=imread('lytro-01-A.jpg');
+A=rgb2gray(A);
+F=rgb2gray(F);
+A=imresize(A,[256,256]);
+F=imresize(F,[256,256]);
+min=fusion_metrix(A,F,'MIN');
+vif=fusion_metrix(A,F,'VIF');
+cd...
+
+
+
+
+
+
+
+
+
+
