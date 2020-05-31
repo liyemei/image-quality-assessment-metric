@@ -1,7 +1,7 @@
-# Image_quality_metric
-  image quality assessment metric
-  
-  
+# Usage：
+
+
+```
 clc
 clear all
 tic
@@ -17,3 +17,7 @@ cd C:\Users\liyemei\Desktop\metrics\fusion_metrix
 pnsr=fusion_metrix(A,F,'psi');
 vif=fusion_metrix(A,F,'VIF');
 cd...
+```
+
+
+
